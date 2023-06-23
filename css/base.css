@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 :root {
-    --bg:#040D1F;
+    --bg: #040D1F;
     --white: #fff;
     --or: #ED8E00;
     --lightor: #F18128;
@@ -31,4 +31,25 @@ body {
     height: 100%;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    width: 166px;
+    height: 46px;
+    background: var(--lightor);
+    color: black;
+    font-family: var(--RM);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    border-radius: 4px;
+    transition: 0.3s;
+
+}
+
+.btn:hover {
+    background: var(--bg);
+    color: var(--white);
 }
